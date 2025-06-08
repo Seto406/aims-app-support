@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion Instructions - AIMS App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
 
+    <div class="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
+        
+        <main class="w-full max-w-2xl bg-white rounded-xl shadow-lg p-8 md:p-12 my-8">
+
+            <header class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-gray-900">AIMS App</h1>
+                <p class="text-xl text-gray-600 mt-1">Account & Data Deletion Request</p>
+            </header>
+
+            <div class="space-y-6 text-gray-700">
+                <p>This page provides instructions on how to request the deletion of your account and associated data for the AIMS mobile application, as required by the Google Play Store.</p>
+                
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-800 border-b pb-2 mb-3">How to Request Account Deletion</h2>
+                    <p>To request that your account and all associated data be permanently deleted, please send an email to the following address:</p>
+                    <div class="my-4 p-3 bg-indigo-50 text-indigo-800 rounded-lg text-center font-semibold">
+                        <!-- TODO: ENTER YOUR TEAM'S SUPPORT EMAIL ADDRESS HERE -->
+                        fumeinomichino406@gmail.com
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-md font-semibold text-gray-800">What to Include in Your Email:</h3>
+                    <p>To verify your request and process it promptly, please ensure your email includes the following:</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1">
+                        <li><strong>Subject Line:</strong> <span class="font-mono bg-gray-100 p-1 rounded">Account Deletion Request for AIMS App</span></li>
+                        <li><strong>Body of the Email:</strong> The email address that you used to register your account in the AIMS app.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-md font-semibold text-gray-800">What Data Will Be Deleted?</h3>
+                    <p>Upon receiving and verifying your request, we will permanently delete the following data associated with your account from our Firebase backend:</p>
+                    <ul class="list-disc list-inside mt-2 space-y-1">
+                        <li>Your Firebase Authentication user record (which includes your UID, email address, and any linked sign-in providers).</li>
+                        <li>Any other data directly tied to your user ID within our system.</li>
+                    </ul>
+                    <p class="mt-2 text-sm text-gray-500">Please note that anonymized usage and performance data collected by Google services (like Firebase Performance Monitoring or Analytics) may not be personally identifiable and may be retained in an aggregated form.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-md font-semibold text-gray-800">Processing Time</h3>
+                    <p>Account deletion requests will be processed within <strong>7-14 business days</strong> of receiving a valid request. We will send a confirmation email to your registered email address once the deletion is complete.</p>
+                </div>
+
+            </div>
+
+            <footer class="text-center mt-10 pt-6 border-t">
+                <p class="text-sm text-gray-500">Thank you for using AIMS.</p>
+                <p class="text-xs text-gray-400 mt-2">Developer: Group 5 Capstone Thesis, World Citi Colleges Antipolo City</p>
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
